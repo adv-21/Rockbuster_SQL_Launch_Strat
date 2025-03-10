@@ -7,13 +7,13 @@ launch an online video rental service in order to stay competitive. The goal of 
 is to answer a series of business questions and produce data-driven answers that they can 
 use for their 2020 company strategy
 ## Key Questions
-● Which movies contributed the most/least to revenue gain?
-● What was the average rental duration for all videos?
-● Which countries are Rockbuster customers based in?
-● Where are customers with a high lifetime value based?
-● Do sales figures vary between geographic regions?
+● Which movies contributed the most/least to revenue gain?\
+● What was the average rental duration for all videos?\
+● Which countries are Rockbuster customers based in?\
+● Where are customers with a high lifetime value based?\
+● Do sales figures vary between geographic regions?\
 ## Data and Tools
-● PGAdmin4 - For managing Rockbuster database
-● Postgre SQL - For  queries and analysis 
-● Tableau - For creating visualizations
+● PGAdmin4 - For managing Rockbuster database\
+● Postgre SQL - For  queries and analysis \
+● Tableau - For creating visualizations\
 
