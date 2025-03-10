@@ -16,3 +16,4 @@ use for their 2020 company strategy
 ● PGAdmin4 - For managing Rockbuster database
 ● Postgre SQL - For  queries and analysis 
 ● Tableau - For creating visualizations
+
