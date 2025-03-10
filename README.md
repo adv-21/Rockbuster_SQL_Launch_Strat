@@ -11,9 +11,9 @@ use for their 2020 company strategy
 ● What was the average rental duration for all videos?\
 ● Which countries are Rockbuster customers based in?\
 ● Where are customers with a high lifetime value based?\
-● Do sales figures vary between geographic regions?\
+● Do sales figures vary between geographic regions?
 ## Data and Tools
 ● PGAdmin4 - For managing Rockbuster database\
 ● Postgre SQL - For  queries and analysis \
-● Tableau - For creating visualizations\
+● Tableau - For creating visualizations
 
