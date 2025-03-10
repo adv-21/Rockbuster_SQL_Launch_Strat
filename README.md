@@ -16,4 +16,6 @@ use for their 2020 company strategy
 ● PGAdmin4 - For managing Rockbuster database\
 ● Postgre SQL - For  queries and analysis \
 ● Tableau - For creating visualizations
+## Visualizations
+All visualizations produced are available on tableau public [here.](https://public.tableau.com/app/profile/adrian.del.villar/viz/RockbusterProject_17369015172630/CountriesbyRevenue) 
 
