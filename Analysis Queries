@@ -1,0 +1,45 @@
+## Finding the top countries by revenue and customer count
+
+SELECT					
+F.country,					
+SUM(amount) AS total_revenue,					
+COUNT(A.customer_id) AS total_customers					
+FROM payment A					
+INNER JOIN rental B ON A.rental_id = B.rental_id					
+INNER JOIN customer C ON B.customer_id = C.customer_id					
+INNER JOIN address D ON C.address_id = D.address_id					
+INNER JOIN city E ON D.city_id = E.city_id					
+INNER JOIN country F ON E.country_id = F.country_id					
+GROUP BY F.country					
+ORDER BY total_revenue DESC					
+LIMIT 20					
+
+
+## Finding top genres by revenue
+
+SELECT name AS genre,					
+SUM(amount) AS total_revenue					
+FROM payment A					
+INNER JOIN rental B ON B.rental_id = A.rental_id					
+INNER JOIN inventory C ON C.inventory_id = B.inventory_id					
+INNER JOIN film D ON C.film_id = D.film_id					
+INNER JOIN film_category E ON D.film_id = E.film_id					
+INNER JOIN category F ON E.category_id = F.category_id					
+GROUP BY genre					
+ORDER BY total_revenue DESC					
+LIMIT 10 					
+
+## Finding top movies by revenue 
+
+SELECT title,					
+name,					
+SUM(amount) AS total_revenue					
+FROM payment A					
+INNER JOIN rental B ON B.rental_id = A.rental_id					
+INNER JOIN inventory C ON C.inventory_id = B.inventory_id					
+INNER JOIN film D ON C.film_id = D.film_id					
+INNER JOIN film_category E ON D.film_id = E.film_id					
+INNER JOIN category F ON E.category_id = F.category_id					
+GROUP BY title,					
+name					
+ORDER BY total_revenue DESC					
